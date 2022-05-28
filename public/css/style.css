@@ -1,0 +1,112 @@
+body {
+    background-color: #E4E4E4;
+}
+
+/* меняем стилизацию ссылок */
+a.nav-link {
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f7b331;
+}
+
+
+/* карточка авторизации/регистрации */
+.card {
+    background-color: #87CEFA;
+    color: #000000;
+}
+
+/* формы ввода данных */
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-radius: 0;
+    border-color: #f7b331;
+    box-shadow: 0 0 0 0.2rem rgb(247 149 79 / 40%);
+}
+
+/* кнопка вход */
+.btn-primary {
+    background-color: #F7BA49;
+    border-radius: 0;
+    border-color: #F7BA49;
+    color: #000000;
+    width: 73%;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    background-color: #f7b331;
+    border-color: #f7b331;
+    color: #000000;
+}
+
+/* верхнее меню на мобильной версии */
+.navbar-light .navbar-toggler {
+    background-color: #87CEFA;
+    border-color: #87CEFA;
+    color: #000000;
+}
+
+/* таблицы в самом журнале */
+.table td {
+    border-top: 1px solid #000000;
+}
+
+/* верхнее меню */
+.navbar {
+    background-color: #87CEFA;
+}
+
+/* кнопки */
+.btn-success {
+    background-color: #87CEFA;
+    color: #000000;
+    border-color: #87CEFA;
+}
+
+.btn-success:hover {
+    background-color: #49B5F7;
+    color: #000000;
+    border-color: #49B5F7;
+}
+
+/* переключатель страниц  */
+.pagination {
+    justify-content: center;
+}
+
+.page-item.active .page-link {
+    color: #000000;
+    background-color: #87CEFA;
+    border-color: #87CEFA;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #87CEFA;
+}
+
+/* закругление кнопок */
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0.25rem;
+}
+
+/* кнопка админ панели */
+.float-right {
+    margin-left: 60%;
+}
